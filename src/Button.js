@@ -2,5 +2,5 @@
 
 export default function Button(props) {
 
-    return <button>Click</button>
+    return <button>{props.children}</button>
 }
